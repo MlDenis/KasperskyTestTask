@@ -21,7 +21,6 @@ var _numberOfMissingCharacters: Int = 0
 var _howManyFewerCharactersThanTheMinimumRequiredNumber: Int = 0
 
 // MARK: Life cycle components
-
 func isValidPass (validationMask: String, validatedObject: String) -> Int {
     for element in validationMask {
         if validatedObject.contains(element) {
